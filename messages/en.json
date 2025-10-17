@@ -1,0 +1,273 @@
+{
+  "HomePage": {
+    "hero": {
+      "firstSlide": {
+        "title": "New Aura for your",
+        "subtitle": "IT Projects",
+        "description": "Your vision , Our Strategy , Success guaranteed"
+      },
+      "secondSlide": {
+        "title": "New Aura for your",
+        "subtitle": "IT Projects",
+        "description": "Your vision , Our Strategy , Success guaranteed"
+      }
+    },
+
+    "Services": {
+      "heading": "Our Excellence services",
+      "subTitle": "Your Digital Excellence, Visionary Consulting, Elite Talent",
+      "description": "From digital creativity to strategic expertise and elite talent sourcing, we turn your IT and digital ambitions into remarkable achievements.",
+      "cards": [
+        {
+          "heading": "Innovation & Digital",
+          "description": "Accelerate your digital growth, craft exceptional web and mobile experiences, captivate your customers, and optimize your digital performance.",
+          "imageSrc": "",
+          "attributes": [
+            "Web & Mobile Development",
+            "SEO referencing",
+            "Creative web design",
+            "Social networks",
+            "Innovative digital strategy"
+          ]
+        },
+        {
+          "heading": "IT Advisory & Strategy",
+          "description": "Streamline your processes, take full control of your digital transformation, and deliver IT solutions that are powerful and perfectly adapted to your market.",
+          "imageSrc": "",
+          "attributes": [
+            "Business Analysts",
+            "Product Managers",
+            "Project Managers",
+            "Product Owners/ AMOA",
+            "Release Managers",
+            "Quality Analysts"
+          ]
+        },
+        {
+          "heading": "Elite IT Sourcing",
+          "description": "Gain access to the best experts to propel your strategic and innovative projects forward.",
+          "imageSrc": "",
+          "attributes": [
+            "Targeted IT sourcing",
+            "Screening and Interviews",
+            "Qualified Talent",
+            "Contract negotiation",
+            "HR Support"
+          ]
+        }
+      ]
+    },
+
+    "Expertise": {
+      "heading": "Our Success Stories",
+      "description": "Every project tells a story. Discover how we've transformed ambitions into concrete successes through innovative and custom digital solutions.",
+      "keyFigure": "Key figures",
+      "cards": [
+        {
+          "title": "Luxury resale mobile app in Dubai",
+          "summary": "Exclusive and secure application for a prestigious startup specializing in the resale of luxury watches, bags, and jewelry.",
+          "keyStats": [
+            { "label": "Downloads", "value": "10,000+" },
+            { "label": "Completed transactions", "value": "92%" }
+          ],
+          "testimonial": "AURA IT enhanced our vision and created a digital experience worthy of the greatest luxury houses."
+        },
+        {
+          "title": "AI application for luxury car showroom – Supercars & Collection – Doha",
+          "summary": "Intelligent tool for a supercar and rare vehicle dealership, featuring real-time inventory and a custom VIP CRM.",
+          "keyStats": [
+            { "label": "Administrative time", "value": "-50%" },
+            { "label": "Closed sales", "value": "+35%" }
+          ],
+          "testimonial": "Reinvented efficiency and enhanced prestige, noticeable in every interaction."
+        },
+        {
+          "title": "Premium website for Medical Practice – Rabat",
+          "summary": "Elegant and optimized website for a renowned medical practice, with online appointment booking and enhanced local visibility.",
+          "keyStats": [
+            { "label": "Online appointments", "value": "+80%" },
+            { "label": "Web visits", "value": "+50%" }
+          ],
+          "testimonial": "Increased visibility and greatly simplified patient experience."
+        },
+        {
+          "title": "Showcase website redesign for a jewelry brand – Paris",
+          "summary": "Modernization and optimization of an e-commerce site for a prestigious jewelry house in Paris.",
+          "keyStats": [
+            { "label": "Traffic", "value": "+250%" },
+            { "label": "Quote requests", "value": "+40%" }
+          ],
+          "testimonial": "Our image is finally worthy of our creations."
+        }
+      ]
+    },
+
+    "Parteners": {
+      "heading": "Our Trusted Partners",
+      "description": "Leading brands and institutions who rely on us for excellence."
+    },
+    "Locations": {
+      "heading": "Our Implantations",
+      "description": "Present in strategic locations, AURA IT puts its digital excellence and IT expertise at your service, wherever your projects require impact."
+    },
+
+    "Footer": {
+      "QuickLinks": {
+        "heading": "Quick Links",
+        "links": {
+          "allServices": "All Services",
+          "ourStory": "Our Story",
+          "contact": "Contact"
+        }
+      },
+
+      "newsletter": {
+        "heading": "IT Consulting & Solutions",
+        "description": "Stay updated with the latest IT insights and solutions.",
+        "highlight": "Subscribe now.",
+        "inputPlaceholder": "Enter your email",
+        "submit": "Submit"
+      },
+      "followUs": "Follow Us"
+    }
+  },
+
+  "AboutUs": {
+    "Hero": {
+      "title": "Who We Are ?",
+      "description": "Founded in 2025 by a visionary engineer from the École Centrale from Lyon, AURA IT’s mission is to redefine technological support for businesses worldwide. We unite the brightest talent, innovative strategies, and unrivaled digital expertise to propel our clients toward excellence. Combining the agility of a startup with the rigor of an international firm, we tackle the most complex technological challenges while staying close to those who trust us. More than a partner, AURA IT is the architect of your digital success."
+    },
+    "WhyChoseUs": {
+      "title": "Why Choose Aura IT ?",
+      "description": "Because your success deserves excellence.",
+      "cards": [
+        {
+          "title": "For our clients",
+          "attributes": [
+            "Conquer your challenges: Our experts turn complexity into tangible results.",
+            "Innovate without limits: Cutting-edge digital solutions to stay ahead of the market.",
+            "Always tailor-made: Personalized strategies that maximize your impact.",
+            "Total reliability: Start-up agility + international rigor = guaranteed trust.",
+            "Build your success: We shape your lasting digital transformation."
+          ]
+        },
+        {
+          "title": "For our consultants",
+          "attributes": [
+            "Take on exciting missions: High-impact projects and cutting-edge technologies.",
+            "Boost your skills: Continuous training, mentoring, and constant innovation.",
+            "Act and innovate: Autonomy, recognition, and a stimulating environment.",
+            "Thrive: Talent appreciation and balance between performance and life.",
+            "Make a difference: Contribute to international projects that change the game."
+          ]
+        }
+      ]
+    },
+    "OurTeam": {
+      "title": "Meet Our Team",
+      "description": "The soul of AURA IT is its exceptional team—visionary strategists, elite engineers, and creators of extraordinary solutions, all driven by a shared obsession to push the boundaries of what’s possible. Each member contributes rare expertise and contagious energy, coming together as an unstoppable engine of innovation. We don’t just support our clients; we reinvent their digital future with boldness, precision, and always one step ahead.",
+      "cards": [
+        {
+          "imageSrc": "/teams/ceo-founder.png",
+          "name": "Lamyae",
+          "role": "CEO & Founder",
+          "description": "Lamyae is a visionary entrepreneur who connects IT expertise and innovation to transform ambitious businesses.",
+          "signature": ""
+        },
+        {
+          "imageSrc": "/teams/afridi3.png",
+          "name": "Gulnabi",
+          "role": "expert developper",
+          "description": "Gulnabi is a dedicated developer who delivers practical and high-quality results. He works closely with businesses to turn their needs into smooth, working solutions.",
+          "signature": ""
+        }
+   
+     
+     
+      ]
+    }
+  },
+
+  "ContactUs": {
+    "Hero": {
+      "title": "Let's Talk Success",
+      "description": "Strengthen your business"
+    },
+    "LeftSection": {
+      "title": "Contact Us",
+      "description": "Can't find what you're looking for? No problem. We can help.",
+      "Form": {
+        "name": "Your Name",
+        "email": "Your Email Address",
+        "phoneNumber": "Phone Number",
+        "message": "Your Message",
+        "agreementText": "I agree to receive further communications from IT Consulting."
+      }
+    },
+    "RightSection": {
+      "title": "Contact Information",
+      "description": "When you fill out the form, our team will respond within 24 hours."
+    },
+    "NotificationMessages": {
+      "success": "Thank you! Your message has been sent successfully. We will respond within 24 hours.",
+      "error": "Oops! Failed to send the message. Please try again.",
+      "networkError": "Network error. Please check your connection and try again.",
+      "allowNotification": "Please agree to receive communications."
+    }
+  },
+
+  "Careers": {
+    "heading": "Consultant Area",
+    "description": "Find your next assignment in just a few clicks"
+  },
+
+  "SearchBar": {
+    "searchPlacholder": "Find your assignment",
+    "contractPlacholder": "Contract type",
+    "locationPlaceholder": "Location",
+    "filterPlaceholder": "Filter",
+    "FilterOptions": {
+      "heading": "Filter Options",
+      "description": "Refine your job search by salary range",
+      "salaryRange": "Salary Range",
+      "minimumSalary": "Minimum Salary",
+      "maximumSalary": "Maximum Salary",
+      "resetAll": "Reset All",
+      "applyFilter": "Apply Filter"
+    }
+  },
+
+  "Notification": {
+    "ApplyJob": {
+      "sucess": "Application submitted successfully!",
+      "error": "Failed to submit. Please try again."
+    },
+    "PDF": {
+      "required2": "Please upload only PDF or Word documents",
+      "error": "File size must be less than 5MB",
+      "requiredMessage": "Please upload your resume"
+    }
+  },
+
+  "Navibar": {
+    "home": "Home",
+    "about": "About",
+    "career": "Career",
+    "contactUs": "Contact Us",
+    "close": "close",
+    "scheduleACcallback": "Schedule a Callback"
+  },
+
+  "Shared": {
+    "contact-btn-text": "Let’s talk success",
+    "join-our-community": "Join Us",
+    "next": "Next",
+    "previous": "Previous",
+    "trusted": "Trusted by industry leaders worldwide",
+    "footer":"© 2025 Aura IT Consulting & Sourcing All rights reserved.",
+    "sub":"Subscribing",
+    "sending":"Sending",
+    "talk":"Let's Talk",
+    "scheduleACall" : "Schedule a Callback"
+  }
+}
