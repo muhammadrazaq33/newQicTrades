@@ -41,10 +41,10 @@ export default function RootLayout({
 
     const navLinks = [
         {
-            href: `/${locale}/dashboard`, label: "Dashboard", icon: <LayoutDashboard/>},
-        { href: `/${locale}/dashboard/wallet`, label: "Wallet", icon: <Wallet /> },
-        { href: `/${locale}/dashboard/affiliate`, label: "Affiliate", icon: <Handshake /> },
-        { href: `/${locale}/dashboard/escrow`, label: "Escrow", icon: <BadgeHelp /> },
+            href: `/${locale}/dashboard`, label: "Dashboard", icon: <LayoutDashboard  className="sm:w-6 w-4 sm:h-6 h-4"/>},
+        { href: `/${locale}/dashboard/wallet`, label: "Wallet", icon: <Wallet className="sm:w-6 w-4 sm:h-6 h-4" /> },
+        { href: `/${locale}/dashboard/affiliate`, label: "Affiliate", icon: <Handshake  className="sm:w-6 w-4 sm:h-6 h-4"/> },
+        { href: `/${locale}/dashboard/escrow`, label: "Escrow", icon: <BadgeHelp className="sm:w-6 w-4 sm:h-6 h-4"/> },
       ];
     
 
@@ -64,7 +64,7 @@ export default function RootLayout({
                 </div>
 
                 {/* Navigation Links */}
-                <div className="flex justify-center items-center gap-3 bg-white rounded-[8px] p-1 sm:gap-5">
+                <div className="flex flex-wrap justify-center items-center gap-3 bg-white rounded-[8px] p-1 sm:gap-7">
                     {navLinks.map((link) => {
                         const isActive = pathname === link.href;
                         return (
