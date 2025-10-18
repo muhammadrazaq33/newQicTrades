@@ -1,5 +1,6 @@
 "use client";
 
+import { Handshake, LayoutDashboard, Wallet, BadgeHelp } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
@@ -39,10 +40,11 @@ export default function RootLayout({
     const current = pageInfo[route] || pageInfo["/dashboard"];
 
     const navLinks = [
-        { href: `/${locale}/dashboard`, label: "Dashboard" },
-        { href: `/${locale}/dashboard/wallet`, label: "Wallet" },
-        { href: `/${locale}/dashboard/affiliate`, label: "Affiliate" },
-        { href: `/${locale}/dashboard/escrow`, label: "Escrow" },
+        {
+            href: `/${locale}/dashboard`, label: "Dashboard", icon: <LayoutDashboard/>},
+        { href: `/${locale}/dashboard/wallet`, label: "Wallet", icon: <Wallet /> },
+        { href: `/${locale}/dashboard/affiliate`, label: "Affiliate", icon: <Handshake /> },
+        { href: `/${locale}/dashboard/escrow`, label: "Escrow", icon: <BadgeHelp /> },
       ];
     
 
@@ -62,19 +64,23 @@ export default function RootLayout({
                 </div>
 
                 {/* Navigation Links */}
-                <div className="flex justify-center items-center gap-7">
+                <div className="flex justify-center items-center gap-3 bg-white rounded-[8px] p-1 sm:gap-5">
                     {navLinks.map((link) => {
                         const isActive = pathname === link.href;
                         return (
                             <Link
                                 key={link.href}
                                 href={link.href}
-                                className={`relative font-medium transition-all duration-200 ${isActive
-                                        ? "text-[#009CFF] after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-full after:h-[3px] after:bg-[#009CFF]"
-                                        : "text-gray-600 hover:text-[#009CFF]"
-                                    }`}
+                        className={`h-9 sm:text-[15px] text-[13px] items-center flex bg-[#FFFFFF] border-none relative font-medium transition-all duration-200`}
                             >
+                                <div className={` items-center flex  gap-2 py-2 px-3 rounded-[8px]  ${isActive
+                                        ? "bg-[#F6F6F6] text-[#009CFF]"
+                                        : "text-gray-600 hover:text-[#009CFF]"
+                                    }`}>
+                                    {/* <Wallet className="w-6 h-6"/> */}
+                                    <span>{link.icon}</span>
                                 {link.label}
+                              </div>
                             </Link>
                         );
                     })}
