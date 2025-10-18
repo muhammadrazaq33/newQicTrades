@@ -77,7 +77,6 @@ export default function RootLayout({
                                         ? "bg-[#F6F6F6] text-[#009CFF]"
                                         : "text-gray-600 hover:text-[#009CFF]"
                                     }`}>
-                                    {/* <Wallet className="w-6 h-6"/> */}
                                     <span>{link.icon}</span>
                                 {link.label}
                               </div>
