@@ -29,7 +29,7 @@ export function TradesTable({ trades, tab }: { trades: Trade[]; tab: TabKey }) {
                 className="hover:bg-slate-50 sm:text-[15px] text-[10px]"
               >
                 <td className="px-4 py-4 font-medium text-[#0F172A]">{t.id}</td>
-                <td className="px-4 py-4 text-[#475569]">{t.buyer}</td>
+                <td className="px-4 py-4 text-[#475569]"> Buyer#{t.id.slice(-4).toUpperCase()}</td>
                 <td className="px-4 py-4text-[#475569]">{t.seller}</td>
                 <td className="px-4 py-4">
                   <span className="font-medium text-[#475569]">

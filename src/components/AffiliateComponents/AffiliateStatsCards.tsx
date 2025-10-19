@@ -8,10 +8,7 @@ export default function AffiliateStatsCards() {
     <div className="grid grid-cols-1 sm:gap-5 gap-4 sm:grid-cols-3">
       {/* Card 1 */}
       <Card
-        className="rounded-2xl border-0 shadow-sm"
-           style={{
-        background: "linear-gradient(135deg, #E6F0FF 25%, #F0F7FF 95.71%)"
-      }}
+        className="rounded-2xl border-[0.75px] border-[#9cd8f8] bg-[#B3E5FF] shadow-sm"
       >
         <div className="flex items-start gap-4 p-5 sm:p-6">
           <div className="flex h-11 w-11 items-center justify-center rounded-[10px] bg-[#FFFFFF] text-[#1E4D8B] shadow-[#00000000]">
@@ -35,10 +32,7 @@ export default function AffiliateStatsCards() {
 
       {/* Card 2 */}
       <Card
-        className="rounded-2xl border-0 shadow-sm"
-              style={{
-        background: "linear-gradient(135deg, #E6F0FF 25%, #F0F7FF 95.71%)"
-      }}
+        className="rounded-2xl border-[0.75px] border-[#9cd8f8] bg-[#B3E5FF] shadow-sm"
       >
         <div className="flex items-start gap-4 p-5 sm:p-6">
           <div className="flex h-11 w-11 items-center justify-center rounded-[10px] bg-[#FFFFFF] text-[#1E4D8B] shadow-[#00000000]">
@@ -62,10 +56,7 @@ export default function AffiliateStatsCards() {
 
       {/* Card 3 */}
       <Card
-        className="rounded-2xl border-0 shadow-sm "
-      style={{
-        background: "linear-gradient(135deg, #E6F0FF 25%, #F0F7FF 95.71%)"
-      }}
+        className="rounded-2xl border-[0.75px] border-[#9cd8f8] bg-[#B3E5FF]  shadow-sm "
       >
         <div className="flex items-start gap-4 p-5 sm:p-6">
           <div className="flex h-11 w-11 items-center justify-center rounded-[10px] bg-[#FFFFFF] text-[#1E4D8B] shadow-[#00000000]">

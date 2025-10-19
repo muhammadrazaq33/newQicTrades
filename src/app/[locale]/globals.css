@@ -80,7 +80,7 @@ button {
       content: '';
       position: absolute;
       inset: 0;
-      background: rgba(0, 0, 0, 0.55);
+      background: #1055C9;
     }
 
     .footer-top-content {
